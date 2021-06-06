@@ -131,36 +131,36 @@ int main(int argc, char const *argv[])
         cout << "Ingrese una opcion del menu: ";
         cin >> opcion;
 
-        switch (opcion)
-        {
-        case 1: 
-            listarProductos();            
-            break;
-        case 2:
-            ingresoDeInventario();
-            break;
-        case 3:
-            salidaDeInventario();
-            break;
+            switch (opcion)
+            {
+            case 1: 
+                listarProductos();            
+                break;
+            case 2:
+                ingresoDeInventario();
+                break;
+            case 3:
+                salidaDeInventario();
+                break;
 
-        case 4:
-            ajustePositivoDeInventario();
-            break;
-        
-        case 5:
-            ajusteNegativoDeInventario();
-            break;
+            case 4:
+                ajustePositivoDeInventario();
+                break;
+            
+            case 5:
+                ajusteNegativoDeInventario();
+                break;
 
-        default:
-            break;
-        }
+            default:
+                break;
+            }
 
-        system("pause");
-        cout << endl;
+            system("pause");
+            cout << endl;
 
-        if (opcion == 0) {
-            break;
-        }
+            if (opcion == 0) {
+                break;
+            }
     }
 
  

@@ -9,7 +9,7 @@ int calculadora(int a,int b , char operador){
     if (operador== '+'){
         return sumar(a,b);
     }
-
+   
     return -1;
 }
 
@@ -30,7 +30,7 @@ int main(int argc, char const *argv[])
     cin>>operador;
 
 
-    cout<<"El resultado de "<<num1<<" "<<operador<<" "<<num2<<" es "<<sumar(num1,num2);
+    cout<<"El resultado de "<<num1<<" "<<operador<<" "<<num2<<" es "<<calculadora(num1,num2,operador);
 
 
     return 0;
